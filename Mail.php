@@ -12,6 +12,7 @@ $recipient = "example@gmail.com";
 mail($recipient, $subject, $message, $mailheader) or die("Error!");
 
 echo'
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
