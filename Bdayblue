@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blues bday countdown </title>
+    <style>
+        body {
+            font-family: 'Press Start 2P', cursive;
+            margin: 5vh;
+            padding: 0;
+            height: 100vh; /* Ensure full viewport height */
+            background-image: url('https://i.pinimg.com/originals/d1/73/bc/d173bcd6d192ea0d4e00e9fa3ccfe8e9.gif ');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            color: blue;
+            text-align : center ;
+           text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Horizontal offset, Vertical offset, Blur radius, Color */
+   
+    }
+           
+        }
+
+        header, footer {
+            background-color: rgba(0, 0, 0, 0.7); /* Adjust the color and transparency for header and footer */
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        main {
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+            padding: 2px;
+            text-align: center;
+            color: white;
+        }
+      
+     
+     .glass-container {
+      background: rgba(255, 255, 255, 0.2); /* Adjust the alpha value for transparency */
+      padding: 20px;
+      border-radius: 10px;
+      backdrop-filter: blur(3px); /* Adjust the blur value for the glass effect */
+    } 
+    
+      #retro-countdown {
+      font-size: 3em;
+    }
+
+    #birthday-message {
+      display: none;
+      font-size: 3em;
+      color: #ff6f61;
+      margin-top: 20px;
+    }
+    </style>
+     <link rel="stylesheet" href="path/to/press-start-2p.css"> <!-- Include the path to the downloaded CSS file -->
+</head>
+<body>
+      <div class="glass-container">
+    <h1><br> </h1>
+  
+</body>
+</html>
+
