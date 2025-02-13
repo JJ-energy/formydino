@@ -1,1 +1,50 @@
+body {
+    background-color: #F7F7F7; /* Grey background */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #87CEEB; /* Blue outline */
+}
 
+#canvas {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+.message-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.button {
+    background-color: #F7F7F7; /* Grey background */
+    border: 1px solid #87CEEB; /* Light blue border */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.button:hover {
+    background-color: #E5E5E5; /* Lighter grey on hover */
+}
+
+.photo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.photo-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
